@@ -1,0 +1,101 @@
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+    position: relative;
+}
+
+.affix {
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+  #SUMMARY {
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  #BIOGRAPHY {
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  #INFLUENCES {
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  #WRITINGS  {
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  #otherWorks {
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  #earlyDialogues {
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  #middleDialogues {color: #555555; background-color: #ffffff;}
+  #ltld  {color: #fff; background-color: #2f2f2f;}
+  #REFERENCES  {color: #fff; background-color: #1abc9c;}
+
+
+p {font-size: 16px;}
+.margin {margin-bottom: 45px; font-style: bold;}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.navbar-nav li {
+  font-size: 12px;
+}
+
+ul, ol {
+  font-size: 16px;
+}
+
+footer {
+
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+}
+
+footer a {
+  color: cyan;
+  text-decoration: none;
+}
+
+footer a:hover{
+  color: red !important;
+  text-decoration: none !important;
+}
+
+footer a:visited{
+  color: red !important;
+  text-decoration: none !important;
+}
+
+footer a:active {
+  {
+    color: red !important;
+    text-decoration: none !important;
+  }
+}
